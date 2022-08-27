@@ -7,7 +7,7 @@ struct PCAPFile {
     uint64_t payloadSize;
 };
 
-const std::vector<PCAPFile> inputs = {{"examples/PPP-config.cap",         22,  1538},
+const std::vector<PCAPFile> inputs = {{"examples/PPP-config.pcap",        22,  1538},
                                       {"examples/rtp-norm-transfer.pcap", 226, 294586},
                                       {"examples/nlmon-big.pcap",         13,  10356}};
 
